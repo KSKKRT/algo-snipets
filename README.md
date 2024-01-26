@@ -1,3 +1,4 @@
 # algo-snipets
 
-Describe your project here.
+Pythonによる，アルゴリズムとデータ構造のスニペット集.
+
