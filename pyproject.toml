@@ -1,0 +1,29 @@
+[project]
+name = "algo-snipets"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "kskkrt", email = "kskkrt0326@gmail.com" }
+]
+dependencies = [
+    "matplotlib>=3.8.2",
+    "graphviz>=0.20.1",
+    "networkx>=3.2.1",
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ruff>=0.1.14",
+    "black>=24.1.0",
+    "mypy>=1.8.0",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
